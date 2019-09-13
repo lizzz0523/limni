@@ -1,12 +1,16 @@
 <template>
-  <div class="login" :class="{ login__signin: isSignIn, login__signup: isSignUp }">
+  <div
+    class="login"
+    :class="{ login__signin: isSignIn, login__signup: isSignUp }"
+  >
     <login-tabs @click.native="switchState" />
     <login-form />
   </div>
 </template>
 <script>
-import LoginTabs from './LoginTabs'
-import LoginForm from './LoginForm'
+import LoginTabs from '../components/LoginTabs'
+import LoginForm from '../components/LoginForm'
+
 export default {
   components: {
     LoginTabs,

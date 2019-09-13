@@ -1,6 +1,6 @@
 <template>
   <span class="login_textfield">
-    <label><i v-if="icon" :class="['fa', `fa-${icon}`]"></i> {{label}}</label>
+    <label><i v-if="icon" :class="['fa', `fa-${icon}`]"></i> {{ label }}</label>
     <input type="text" />
   </span>
 </template>
@@ -36,8 +36,8 @@ export default {
 .login_textfield input {
   flex: 1;
   width: 0;
-  padding: 0;
   margin: 0;
+  padding: 0;
   border: none;
   outline: none;
 }

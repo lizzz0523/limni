@@ -10,10 +10,10 @@
       <login-textfield label="Email address" icon="envelope-o" />
     </div>
     <div class="login_form_r3">
-      <login-textfield label="Enter passwords" icon="lock" />
+      <login-textfield label="Enter password" icon="lock" />
     </div>
     <div class="login_form_r4">
-      <login-textfield label="Re-enter passwords" icon="lock" />
+      <login-textfield label="Re-enter password" icon="lock" />
     </div>
     <div class="login_form_r5">
       <login-checkbox label="Keep me sign in" />
@@ -28,6 +28,7 @@
 import LoginTextfield from './LoginTextfield'
 import LoginCheckbox from './LoginCheckbox'
 import LoginSubmit from './LoginSubmit'
+
 export default {
   components: {
     LoginTextfield,
@@ -40,12 +41,12 @@ export default {
 .login_form {
   padding: 20px;
 }
-.login_form>div {
+.login_form > div {
   padding-bottom: 10px;
   display: flex;
   min-height: 40px;
   justify-content: space-between;
-  transition: all .6s ease;
+  transition: all 0.6s ease;
 }
 .login_text {
   display: flex;
@@ -62,7 +63,8 @@ export default {
 }
 .login__signup .login_form_r5 {
   opacity: 0;
-  transition-duration: .4s;
+  /* transform: translateY(100%); */
+  transition-duration: 0.4s;
 }
 .login__signup .login_button label:nth-child(2) {
   transform: translateY(-100%);

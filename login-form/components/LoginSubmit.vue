@@ -1,6 +1,6 @@
 <template>
   <span class="login_button">
-    <input type="button" />
+    <input type="button" value="" />
     <label>Sign In</label>
     <label>Sign Up</label>
   </span>
@@ -20,7 +20,7 @@
   border: none;
   border-radius: 2px;
   outline: none;
-  background: #0066d0
+  background: #0066d0;
 }
 .login_button label {
   position: absolute;
@@ -29,6 +29,6 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  transition: all .6s ease;
+  transition: all 0.6s ease;
 }
 </style>
