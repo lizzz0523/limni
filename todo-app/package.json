@@ -1,0 +1,7 @@
+{
+    "name": "limni-todo-app",
+    "scripts": {
+        "serve": "../node_modules/.bin/vue-cli-service serve ./main.js",
+        "build": "../node_modules/.bin/vue-cli-service build --dest ../dist/todo-app ./main.js"
+    }
+}
