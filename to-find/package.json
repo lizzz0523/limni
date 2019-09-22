@@ -1,0 +1,7 @@
+{
+    "name": "limni-to-find",
+    "scripts": {
+        "serve": "../node_modules/.bin/vue-cli-service serve ./main.js",
+        "build": "../node_modules/.bin/vue-cli-service build --dest ../dist/to-find ./main.js"
+    }
+}
