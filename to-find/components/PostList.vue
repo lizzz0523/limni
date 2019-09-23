@@ -37,7 +37,7 @@ export default {
 <style lang="scss">
 .post-list {
   padding: 0;
-  transition: all 0.6s ease;
+  transform-origin: top;
 }
 .post {
   padding: 16px 0;
