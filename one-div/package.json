@@ -1,0 +1,7 @@
+{
+    "name": "limni-one-div",
+    "scripts": {
+        "serve": "npx ../node_modules/.bin/vue-cli-service serve ./main.js",
+        "build": "npx ../node_modules/.bin/vue-cli-service build --dest ../dist/one-div ./main.js"
+    }
+}
