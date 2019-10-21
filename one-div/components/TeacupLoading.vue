@@ -5,18 +5,18 @@
 <style>
 @keyframes move1 {
   0% {
-    transform: translateX(0);
+    left: 0;
   }
   100% {
-    transform: translateX(-80px);
+    left: -80px;
   }
 }
 @keyframes move2 {
   0% {
-    transform: translateX(-20px);
+    left: -20px;
   }
   100% {
-    transform: translateX(-100px);
+    left: -100px;
   }
 }
 .teacup-loading {
@@ -44,7 +44,7 @@
   bottom: 0;
   left: 0;
   z-index: 0;
-  right: -120px;
+  width: 160px;
   height: 20px;
   clip-path: polygon(
     0% 20%,
