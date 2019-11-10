@@ -1,0 +1,7 @@
+{
+  "name": "limni-instagram",
+  "scripts": {
+    "serve": "npx ../node_modules/.bin/vue-cli-service serve ./main.js",
+    "build": "npx ../node_modules/.bin/vue-cli-service build --dest ../dist/instagram ./main.js"
+  }
+}
