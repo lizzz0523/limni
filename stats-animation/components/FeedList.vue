@@ -32,6 +32,10 @@ export default {
 <style lang="scss">
 .feed-list {
   padding-top: 88px;
+  box-sizing: border-box;
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
   > ul > li {
     transform: translate3d(0, 0, 0);
     opacity: 1;

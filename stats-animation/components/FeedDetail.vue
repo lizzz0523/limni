@@ -89,7 +89,9 @@ export default {
   bottom: 0;
   right: 0;
   padding-top: 88px;
-
+  box-sizing: border-box;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
   .feed {
     padding: 16px 20px 0;
     transform: translate3d(0, 0, 0);
