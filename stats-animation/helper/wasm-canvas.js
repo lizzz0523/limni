@@ -28,7 +28,7 @@ export async function loadImageData (src, { width, height } = {}) {
 }
 
 export async function createRenderer (canvas, url) {
-  const ww = window.innerWidth
+  const ww = canvas.parentElement.clientWidth
   const wh = window.innerHeight
   const pr = window.devicePixelRatio
   const { data, width, height } = await loadImageData(url, {
